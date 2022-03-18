@@ -141,5 +141,5 @@ th {
 }
 .nav:hover {
 	background-color: #424874;
-	transition: background-color 0.5s;
+	transition: background 0.5s;
 }
