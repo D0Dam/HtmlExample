@@ -1,0 +1,130 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Gothic A1", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	padding-left: 8px;
+}
+.mainTitle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px;
+	padding: 8px;
+	background: #a6b1e1;
+}
+.title {
+	font-size: 42px;
+	color: white;
+}
+.fa-bars {
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+}
+
+.navAndContent {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	flex-basis: 100%;
+}
+.navmain {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	flex-basis: 148px;
+	background-color: #f4eeff;
+}
+.navmain li {
+	padding: 12px 12px;
+	margin: 8px 0px;
+	list-style: none;
+	background-color: #a6b1e1;
+	border-radius: 32px 0px 0px 32px;
+}
+.navmain a {
+	color: white;
+	padding-left: 4px;
+}
+.mainContent {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding-left: 8px;
+	background-color: #f4eeff;
+}
+
+table,
+td,
+th {
+	border: 2px solid #dcd6f7;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-around;
+	background-color: #dcd6f7;
+	border-radius: 16px;
+}
+
+.skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.fa-html5 {
+	color: orangered;
+}
+.fa-css3 {
+	color: blue;
+}
+.fa-js {
+	color: #f3950d;
+}
+
+.arContents {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.github,
+.devLog {
+	background-color: #dcd6f7;
+	padding: 8px;
+	margin-bottom: 16px;
+	border-radius: 16px;
+}
+.arname {
+	padding-left: 4px;
+	padding-top: 12px;
+	font-size: 18px;
+}
+.github li,
+.devLog li {
+	list-style: inside;
+	padding: 4px;
+	font-size: 14px;
+}
+.github ul,
+.devLog ul {
+	padding: 4px;
+}
+.githubLink a,
+.devLogLink a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 32px;
+	color: #424874;
+}
