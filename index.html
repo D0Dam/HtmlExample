@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="mainTitle">
-        <a href="index.html" class="title">Intoduce me!</a>
-        <i class="fa-solid fa-bars"></i>
-    </div>
-    <div class="navAndContent">
-        <ul class="navmain">
-            <li class="nav"><a href="aboutme.html">About me</a></li>
-            <li class="nav" ><a href="skills.html">skills</a></li>
-            <li class="nav"><a href="archiving.html">Archiving</a></li>
-        </ul>
-        <div class="mainContent">
-            <h2 class="subtitle">안녕하세요!</h2>
-            <div class="content">이번에 <a href="https://bcsdlab.com/track/frontend">BCSD의 FrontEnd 트랙</a>에 들어오게 된 김민재 입니다!</div>
-        </div>
-    </div>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<title>Page Title</title>
+		<script type="text/javascript" src="./main.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="mainTitle">
+			<div class="title" onclick="changeContentsToTitle()">Intoduce me!</div>
+			<input class="toggleButton" type="checkbox" onclick="changeTem()" />
+			<i class="fa-solid fa-bars" onclick="clickBars()"></i>
+		</div>
+		<div class="navAndContent">
+			<ul class="navmain">
+				<li class="nav" onclick="changeContentsToAM()">About me</li>
+				<li class="nav" onclick="changeContentsToSK()">skills</li>
+				<li class="nav" onclick="changeContentsToAR()">Archiving</li>
+			</ul>
+			<div class="mainContent">
+				<h2 class="subtitle">안녕하세요!</h2>
+				<div class="content">
+					이번에
+					<a href="https://bcsdlab.com/track/frontend">BCSD의 FrontEnd 트랙</a
+					>에 들어오게 된 김민재 입니다!
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
